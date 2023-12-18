@@ -1,0 +1,157 @@
+\documentclass[UTF8,AutoFakeBold]{ctexbook}
+\usepackage{xeCJK}
+\usepackage{ctex}
+\usepackage{geometry}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{booktabs}
+\usepackage{mathptmx}
+
+\geometry{a4paper,scale=1, left=3.18cm, right=3.18cm, top=2.54cm, bottom=2.54cm}
+
+\titleformat{\section}[block]{\normalfont\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}[block]{\normalfont\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}[block]{\normalfont\bfseries}{\thesubsubsection}{1em}{}
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+\titlespacing*{\subsection}{0pt}{0pt}{0pt}
+\titlespacing*{\subsubsection}{0pt}{0pt}{0pt}
+
+\setlength{\parindent}{2em}
+
+\renewcommand{\thefootnote}{\textcircled{\raisebox{-0.9pt}{\arabic{footnote}}}}
+
+\setCJKmainfont{SimSun.ttc}
+
+\begin{document}
+\hypersetup{hidelinks} 
+\pagestyle{empty}
+
+\begin{spacing}{1.0}
+\begin{center}
+    \zihao{3} \textbf{主标题}
+    
+    \textbf{}
+    
+    \zihao{4} \textbf{——副标题（若无副标题，请删除）}\par
+\end{center}
+\end{spacing}
+
+\setlength{\baselineskip}{20pt}
+\zihao{-4} 
+
+\noindent\textbf{【摘要】}
+
+一般不超过300字，摘要应建立在对论文进行总结的基础上，对文章内容、结构和观点进行的概括，供读者清楚了解、论文提出的问题、采用的证据和得出的结论。字体为宋体小四号字。摘要中不应出现“本文”“本研究”等表述。
+
+\noindent \textbf{【关键词】} 
+
+关键词控制在3—5个之间，一般不超过3个。字体为宋体小四号字。摘要与关键词之间不空行，关键词与正文之间空1行。
+
+\noindent \textbf{【正文】} 
+
+\setlength{\baselineskip}{20pt}
+
+\section*{一、关于正文内容的说明}
+
+\subsection*{（一）引文注释}
+
+注释是对所创造的名词术语的解释或对文中引文出处的说明。
+格式：采用“脚注”形式。具体项目和格式如下：
+
+\subsubsection*{1. 专著、论文集、学位论文和报告类：}
+[序号]主要作者（多个作者间用逗号“、”隔开）：文献题名，出版地：出版者，出版年，起止页码。 \footnote[1]{周振莆：《周易译注》，北京：中华书局，1991年，第20-25页。} \footnote[2]{John Dewey, Democracy and Education: An Introduction to Philosophy of Education, New York: Macmillan (1966 paperback edition), 1916, p.25.}
+
+\subsubsection*{2. 译著：}
+[序号]主要作者（多个作者间用逗号“、”隔开）：文献题名，译者，出版地：出版者，出版年，起止页码。\footnote[3]{奥兰多·费吉斯：《娜塔莎之舞：俄罗斯文化史》，郭丹杰、曾小楚译，成都：四川人民出版社，2018年，第4页。} 
+
+\subsubsection*{3. 期刊文章：}
+[序号]主要作者（多个作者间用逗号“、”隔开）：文献题名，刊名，年卷（或期），起止页码。 \footnote[4]{何龄修：《读顾城<南明史>》，《中国史研究》，1998年第3期，第163-173页。} \footnote[5]{S.Kanter, Z.Gamson \& H.London, “The Implementation of General Education: Some Early Findings,” The Journal of General Education, 1991(40), pp.119-127.}
+
+\subsubsection*{4. 电子文献：}
+[序号]作者，题名，文献出处，发表或更新日期[引用日期]，获取和访问路径。 \footnote[6]{傅刚，《大风沙过后的思考》，《北京青年报》，2000-04-12[2002-03-06]，http://www.bjyouth.com.cn/Bqb/20000412/gb/ 4216\%5ed0412b.htm.}
+
+\subsection*{（二）图片的格式规范要求}
+
+\subsubsection*{1. 形式：}
+各种框图、流程图，须通过word 的绘图工具或使用Visio等专业的制图软件进行制图；
+
+\subsubsection*{2. 位置：}
+插入文章的各类型图都应居中，并按排版需要调整大小，但图片宽度不应超过正文文本宽度；
+
+\subsubsection*{3. 图题：}
+图题在图片下方，包含图序和图名，图序与图名之间应留1 个同类字符的空隙；居中，字体黑体加粗，字号比正文小一号。图序使用阿拉伯数字依序编排。
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{example-image}
+\caption*{\heiti\bfseries\zihao{-5} 图1 图片标题}
+\end{figure}
+
+\subsection*{（三）表格的格式规范要求}
+
+\subsubsection*{1. 形式：}
+论文中的各种表须使用在word 文档中插入表格的形式进行表格的绘制；
+
+\subsubsection*{2. 位置：}
+表格应居中放置，大小适中，宽度不宜超过论文文本宽度
+
+\subsubsection*{3. 表头：}
+表头在表格上方，包含表序和表名，表序与表名之间应留1 个同类字符的空隙，居中放置，与表格顶线无间隔，字体黑体加粗，字号比正文小一号。表序使用阿拉伯数字依序编排；
+
+\subsubsection*{4. 内容：}
+在表中除了具体内容是因文章而异，表内文字字体、字号、数字书写规范等都应该统一。
+
+\begin{table}[htbp]
+\centering
+\caption*{\heiti\bfseries\zihao{-5} 表1 表格标题} % 表头
+\begin{tabular}{|c|c|c|} % 三列居中对齐
+\hline
+\textbf{列1} & \textbf{列2} & \textbf{列3} \\ \hline
+内容1 & 内容2 & 内容3 \\ \hline
+内容4 & 内容5 & 内容6 \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection*{（三）公式的格式规范要求}
+公式统一空两格左对齐，公式采用Word自带公式编辑器输入，编号靠右侧，采用小四Times New Roman字体斜体。
+
+\[
+\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+\]
+
+\subsection*{（四）参考文献}
+格式：采用“尾注”形式，在正文结束后，罗列在后。
+
+说明：如有必要列举论文涉及的其他文献，则可在文末列出参考文献。具体项目和格式如下：
+
+\subsubsection*{1. 专著、论文集、学位论文和报告类：}
+[序号]主要作者（多个作者间用逗号“、”隔开）：文献题名，出版地：出版者，出版年，起止页码~\cite{ref1}~\cite{ref2}。 
+
+\subsubsection*{2. 译著：}
+[序号]主要作者（多个作者间用逗号“、”隔开）：文献题名，译者，出版地：出版者，出版年，起止页码~\cite{ref3}。
+
+\subsubsection*{3. 期刊文章：}
+[序号]主要作者（多个作者间用逗号“、”隔开）：文献题名，刊名，年卷（或期），起止页码~\cite{ref4}~\cite{ref5}。 
+
+\subsubsection*{4. 电子文献：}
+[序号]作者，题名，文献出处，发表或更新日期[引用日期]，获取和访问路径~\cite{ref6}。 
+
+
+\let\cleardoublepage\clearpage
+
+\begin{thebibliography}{99}
+\bibitem{ref1} 周振莆：《周易译注》，北京：中华书局，1991年，第20-25页。
+\bibitem{ref2} John Dewey, Democracy and Education: An Introduction to Philosophy of Education, New York: Macmillan (1966 paperback edition), 1916, p.25.
+\bibitem{ref3} 奥兰多·费吉斯：《娜塔莎之舞：俄罗斯文化史》，郭丹杰、曾小楚译，成都：四川人民出版社，2018年，第4页。
+\bibitem{ref4} 何龄修：《读顾城<南明史>》，《中国史研究》，1998年第3期，第163-173页。
+\bibitem{ref5} S.Kanter, Z.Gamson \& H.London, “The Implementation of General Education: Some Early Findings,” The Journal of General Education, 1991(40), pp.119-127.
+\bibitem{ref6} 傅刚，《大风沙过后的思考》，《北京青年报》，2000-04-12[2002-03-06]，http://www.bjyouth.com.cn/Bqb/20000412/gb/4216%5ed0412b.htm.
+\end{thebibliography}
+
+\end{document}
